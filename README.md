@@ -46,7 +46,21 @@ cd (yourprojectname)
 ```
 or just use your VSCode.
 
-## Step 6: Code.
+## Step 6: Remove your Git Origin.
 
-You may now code into the newly created react-ts project, enjoy!
+To remove your connection from my git, you must type this:
+
+```bash
+git remote remove origin
+```
+In order to link it to your repository, enter this:
+
+```bash
+git remote add (link of your respository)
+git add . 
+git commit -m "(AnyMessageWillDo)"
+git push --set-upstream origin main
+```
+Now, you have placed it in your own repository, enjoy and goodluck in coding!
+
 
