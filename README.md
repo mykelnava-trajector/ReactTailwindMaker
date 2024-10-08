@@ -8,7 +8,13 @@ Open your terminal in VSCode by pressing CTRL + Shift + `
  ```bash  
 git clone https://github.com/mykelnava-trajector/ReactTailwindMaker.git
 ```
+## Step 2: Go to your said folder
 
+To go to said folder, you enter this command
+
+ ```bash  
+cd (foldername)
+```
 
 ## Step 2: Install the packages.
 
