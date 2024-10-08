@@ -4,11 +4,7 @@ Creating your react-ts and tailwind project is easy when using this specific lin
 ## Step 1: Install the packages.
 
 To install the packages, you must open up your terminal and type either
- ```bash
-npm i
-````  or 
- 
-```bash
+ ```bash  
 npm install
 ```
 
@@ -33,4 +29,8 @@ Now, you may navigate to your project by either way
 cd (yourprojectname)
 ```
 or just use your VSCode.
+
+## Step 5: Code.
+
+You may now code into the newly created react-ts project, enjoy!
 
