@@ -1,1 +1,2 @@
 # ReactTailwindMaker
+# How to use:
