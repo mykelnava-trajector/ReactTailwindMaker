@@ -57,7 +57,7 @@ In order to link it to your repository, enter this:
 
 ```bash
 git remote add (link of your respository)
-git add . 
+git add . or git add (file name)
 git commit -m "(AnyMessageWillDo)"
 git push --set-upstream origin main
 ```
