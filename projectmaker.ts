@@ -11,17 +11,16 @@ interface Answers {
 
 inquirer.prompt<Answers>([
   {
+    type: 'input',
+    name: 'projectName',
+    message: 'Enter your project name:',
+  },
+  {
     type: 'list',
     name: 'framework',
     message: 'Choose your project type:',
     choices: ['react-ts', 'next-js'],
     default: 'react-ts',
-  },
-  {
-    type: 'input',
-    name: 'projectName',
-    message: 'Enter your project name:',
-    when: (answers) => answers.framework === 'react-ts'
   },
   {
     type: 'input',
