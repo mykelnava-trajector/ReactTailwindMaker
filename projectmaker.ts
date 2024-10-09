@@ -73,6 +73,18 @@ inquirer.prompt<Answers>([
           @tailwind utilities
 
           Don't forget to update 'tailwind.config.js' to include your project paths.
+          Example:
+          /** @type {import('tailwindcss').Config} */
+          export default {
+            content: [
+              "./index.html",
+              "./src/**/*.{js,ts,jsx,tsx}",
+            ],
+             theme: {
+             extend: {},
+            },
+          plugins: [],
+          }
         `)
       }
 
