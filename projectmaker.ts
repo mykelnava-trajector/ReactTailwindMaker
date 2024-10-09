@@ -53,7 +53,7 @@ inquirer.prompt<Answers>([
       if (framework === 'react-ts') {
         execSync(`npm create vite@latest ${projectName} -- --template react-ts`, { stdio: 'inherit' })
       } else if (framework === 'next-js') {
-        execSync(`npx create-next-app@latest ${nextJsFolder || projectName} -y`, { stdio: 'inherit' })
+        execSync(`npx create-next-app@latest ${nextJsFolder} -y`, { stdio: 'inherit' })
       }
 
       process.chdir(nextJsFolder || projectName)
