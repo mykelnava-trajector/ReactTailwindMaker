@@ -62,8 +62,8 @@ inquirer.prompt<Answers>([
       
       if (useTailwind) {
         console.log('Setting up TailwindCSS...')
-        execSync('npm install -D tailwindcss', { stdio: 'inherit' })
-        execSync('npx tailwindcss init', { stdio: 'inherit' })
+        execSync('npm install -D tailwindcss postcss autoprefixer', { stdio: 'inherit' })
+        execSync('npx tailwindcss init -p', { stdio: 'inherit' })
 
         console.log(`
           TailwindCSS setup almost done! Add the following to your main CSS file (e.g., src/index.css):
